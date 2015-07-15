@@ -54,6 +54,16 @@ angular.module('starter', [
       }
     }
   })
+
+    .state('app.settings', {
+    url: "/settings",
+    views: {
+      'menuContent': {
+        templateUrl: "templates/settings/settings.html",
+        controller: 'SettingsCtrl'
+      }
+    }
+  })
     .state('app.playlists', {
       url: "/playlists",
       views: {
