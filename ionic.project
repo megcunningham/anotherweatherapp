@@ -1,10 +1,10 @@
 {
   "name": "weatherornot",
-  "app_id": ""
+  "app_id": "",
   "proxies": [
-  	{
-	  	"path": "/api/forecast",
-	  	"proxyUrl": "https://api.forecast.io/forecast/5a6e0497c1c41c02a0a59aeb56c74825/"
-  	}
+    {
+      "path": "/api/forecast",
+      "proxyUrl": "https://api.forecast.io/forecast/ba4a7ed48c7979e270abb6dd51e97cd4/"
+    }
   ]
 }
